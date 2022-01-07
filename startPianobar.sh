@@ -10,6 +10,5 @@ password = ${PANDORA_PASSWORD:-undefined_password}
 EOF
 fi
 
-bash
-
+bluetoothd &
 #firetv-server -c '/config/devices.yaml'
