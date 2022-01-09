@@ -13,4 +13,6 @@ fi
 /etc/init.d/dbus start
 
 bluetoothd --debug  &
+/bin/bash
+
 #firetv-server -c '/config/devices.yaml'
