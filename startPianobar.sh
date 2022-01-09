@@ -10,5 +10,7 @@ password = ${PANDORA_PASSWORD:-undefined_password}
 EOF
 fi
 
-bluetoothd 
+/etc/init.d/dbus start
+
+bluetoothd --debug  &
 #firetv-server -c '/config/devices.yaml'
